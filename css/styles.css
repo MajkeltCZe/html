@@ -1,11 +1,19 @@
 body {
-font-family: Arial, Helvetica, sans-serif;
-
-
-}
-
-h1 {
-background-color: rgb(0, 0, 0)  !important;
-color: rgb(231, 230, 230);
-text-align: center;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+    }
+    main {
+    width: 1200px;
+    margin: 50px auto; 
+    background-color:#ffffff; 
+    border: 3px solid #e0e0e0; 
+    padding: 10px; 
+    
+    }
+   h1 {
+       text-align: center;
+        color: #ffffff;
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+  

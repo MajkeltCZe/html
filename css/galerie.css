@@ -1,9 +1,34 @@
-main {
 
-    width: 80%;
-margin: 0 auto;
-}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+    }
+    main {
+    width: 1200px;
+    margin: 50px auto; 
+    background-color:#ffffff; 
+    border: 3px solid #e0e0e0; 
+    padding: 10px; 
+    
+    }
+   h1 {
+       text-align: center;
+        color: #ffffff;
+        font-size: 200%;
+        text-transform: uppercase;
+    }
+  
+       
+      header {
+        background-color: rgb(15, 83, 146);
+        background-image: linear-gradient(blue,rgb(101, 4, 158), red);
+        padding: 18px;
+        color: white;
+        text-align: center;
+    border-bottom: solid rgb(206, 203, 203);
+    }
 
+      
 
 div.gallery {
     margin: 5px;
