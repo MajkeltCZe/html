@@ -1,17 +1,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#ffffff;
-    }
+    background-image: url("../img/background.jpg");  
+}
+   
     main {
     width: 1200px;
     margin: 50px auto; 
-    background-color:#ffffff; 
+    color: white;
     border: 3px solid #e0e0e0; 
-    padding: 10px; 
-    
-    }
-   h1 {
+    padding: 10px;   
+     
+}
+   
+    h1 {
        text-align: center;
         color: #ffffff;
         font-size: 200%;
@@ -25,10 +27,13 @@ body {
         padding: 18px;
         color: white;
         text-align: center;
-    border-bottom: solid rgb(206, 203, 203);
+    border-bottom: solid rgb(206, 203, 203) 2px;
     }
 
-      
+      footer > hr {
+
+        width: 1150px;
+      }
 
 div.gallery {
     margin: 5px;

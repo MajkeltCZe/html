@@ -5,8 +5,9 @@ border-collapse: collapse;
 }
 
 table {
-margin-left: 50px;
-    width: 50%;
+margin-left: 159px;
+    width: 70%;
+
 }
 
 #mojebunka {
@@ -18,13 +19,19 @@ dt {
 font-weight: 700;
 font-size: 1.5em;
 margin-top: 7px ;
+text-align: center;
+
 }
 
 dd {
 font-style:italic;
 margin-top: 10px ;
 margin-left: 0;
+text-align: center;
+text-decoration-style: dashed;
 }
+
+
 
 /*
 [rowspan="2"] {

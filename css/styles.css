@@ -10,10 +10,24 @@ body {
     padding: 10px; 
     
     }
-   h1 {
-       text-align: center;
-        color: #ffffff;
-        font-size: 200%;
-        text-transform: uppercase;
-    }
+   
   
+    h2 {
+text-align: center;
+    }
+
+    header {
+        background-color: rgb(15, 83, 146);
+        background-image: linear-gradient(blue,rgb(101, 4, 158));
+        padding: 18px;
+        color: white !important;  
+        text-align: center;
+    border-bottom: solid rgb(206, 203, 203) 2px;
+    }
+
+    h1 {
+        text-align: center;
+       
+         font-size: 200%;
+         text-transform: uppercase;
+     }
