@@ -7,14 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
     <link href="../css/galerie.css" rel="stylesheet">
-</head>
+    <link href="../css/styles.css" rel="stylesheet">
+
 
 <body>
     <header>
         <h1>Fotogalerie - Star Wars</h1>
 
     </header>
-
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html">Tabulky v HTML</a>
+        <a href="../multimedia.html">Multimedia</a>
+        <a href="galerie/index.html" class="active">Fotogalerie</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <main>
 
         <div class="gallery">
@@ -92,7 +100,19 @@
 <hr>
 <p>&copy;</p>
     </footer>
-    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+        <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+
 </body>
 
 </html>

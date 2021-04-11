@@ -12,7 +12,14 @@
     <header>
         <h1>Multimedia a HTML</h1>
     </header>
-
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" >Tabulky v HTML</a>
+        <a href="multimedia.html" class="active">Multimedia</a>
+        <a href="galerie/index.html">Fotogalerie</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <main>
         <h2>Obrázky v HTML </h2>
 
@@ -68,6 +75,16 @@
 
 
     <footer></footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 
 </html>
