@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background-color:#ffffff;
     }
     main {
@@ -32,6 +32,24 @@ text-align: center;
          text-transform: uppercase;
      }
 
+#obrazek,video {
+padding-left: 200px;
+
+}
+
+figcaption,iframe {
+padding-left: 230px;
+}
+
+#audiocap {
+  padding-left: 500px  !important;
+
+}
+
+audio {
+padding-left: 400px;
+
+}
 
    
    .topnav {

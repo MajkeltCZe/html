@@ -2,69 +2,66 @@
 <html lang="cs">
 
 <head>
-    <title>Multimedia</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/styles.css" rel="stylesheet">
+  <title>Multimedia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Multimedia a HTML</h1>
-    </header>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" >Tabulky v HTML</a>
-        <a href="multimedia.html" class="active">Multimedia</a>
-        <a href="galerie/index.html">Fotogalerie</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    <main>
-        <h2>Obrázky v HTML </h2>
+  <header>
+    <h1>Multimedia a HTML</h1>
+  </header>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Tabulky v HTML</a>
+    <a href="multimedia.html" class="active">Multimedia</a>
+    <a href="galerie/index.html">Fotogalerie</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <main>
+    <h2>Obrázky v HTML </h2>
 
-        <figure>
-            <img src="img/question-mark.png" alt="otazník">
-            <figcaption>otazník</figcaption>
-        </figure>
-
-
-        <h2>Audio a video v HTML</h2>
-
-        <figure>
-            <video width="320" height="240" controls autoplay muted>
-                <source src="media/movie.mp4" type="video/mp4">
-
-                Váš prohlížeč tento formát nepodporuje.
-            </video>
-
-            <figure>medvěd</figure>
-        </figure>
+    <figure>
+      <img id="obrazek" src="img/nature.jpg" alt="nature" title="příroda">
+      <figcaption>příroda</figcaption>
+    </figure>
 
 
+    <h2>Audio a video v HTML</h2>
 
-        <figure>
-            <audio controls>
-                <source src="media/What's Up--4 Non Blondes [Lyrics On Screen].mp3" type="audio/ogg">
+    <figure>
+      <video width="700" height="400" controls autoplay muted>
+        <source src="media/tornado.mp4" type="video/mp4">
 
-                Váš prohlížeč tento formát nepodporuje.
-            </audio>
+        Váš prohlížeč tento formát nepodporuje.
+      </video>
 
-            <figure>pisnička</figure>
-        </figure>
-
-        <h2>Video z youtube </h2>
-
-        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kfijuP5HDjU?start=25"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+      <figcaption></figcaption>
+    </figure>
 
 
-    </main>
+
+    <figure>
+      <audio controls>
+        <source src="media/storm.mp3" type="audio/ogg">
+
+        Váš prohlížeč tento formát nepodporuje.
+      </audio>
+
+      <figcaption id="audiocap" >zvuk bouře</figcaption>
+    </figure>
+
+    <h2>Video z youtube </h2>
+
+
+    <iframe width="700" height="400" src="https://www.youtube.com/embed/x4r7af2Lcmw" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+
+  </main>
 
 
 
@@ -74,17 +71,17 @@
 
 
 
-    <footer></footer>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+  <footer></footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 
 </html>
