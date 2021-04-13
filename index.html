@@ -13,20 +13,20 @@
     <header>
 
         <h1>Tabulky v HTML</h1>
-       
-    
-          
-          
-    
+
+
+
+
+
     </header>
     <div class="topnav" id="myTopnav">
         <a href="index.html" class="active">Tabulky v HTML</a>
         <a href="multimedia.html">Multimedia</a>
         <a href="galerie/index.html">Fotogalerie</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>
         </a>
-      </div>
+    </div>
     <main>
 
         <h2> Slavná osobnost: Franz Kafka</h2>
@@ -47,29 +47,35 @@
 
                         <img src="img/Franz_Kafka_1917.jpg" height="250" alt="Franz Kafka">
                     </td>
-                    <td colspan="2"> Franz Kafka</td>
-                    <td rowspan="4">
-                        
-                            Proces
-                            Proměna
-                            Zámek
-                            Amerika
-                        
+                    <td id="text" colspan="2"> Franz Kafka</td>
+                    <td id="fr" rowspan="4">
+
+                        <p> Proces</p>
+                        <p> Zámek</p>
+                        <p> Amerika</p>
+                        <p>Proměna</p>
+                        <p>Venkovský lékař</p>
+                        <p>V kárném táboře
+                        </p>
+                        <p>Strážce hrobky</p>
+
                     </td>
                 </tr>
                 <tr>
 
-                    <td>Narození: 1883</td>
-                    <td>Úmrtí: 1924</td>
+                    <td>Narození: 3. července 1883</td>
+                    <td>Úmrtí: 3. června 1924</td>
 
                 </tr>
 
                 <tr>
-                    <td rowspan="2" colspan="2"> byl pražský německy píšící spisovatel.
-                        <p>Je považován za jednoho z literárně nejvlivnějších spisovatelů 20. století. </p>
-                        <p>Téměř celý jeho život byl spjat s Prahou.</p>
-                        <p>Byl nekuřák,
-                            abstinent a vegetarián.</p>
+                    <td rowspan="2" colspan="2"> Byl pražský německy píšící spisovatel. Je považován za jednoho z
+                        literárně nejvlivnějších spisovatelů 20. století.
+                        <p> </p>
+                        <p>Podle něj vzniklo přídavné jméno kafkovský, jež existuje také v mnoha dalších světových
+                            jazycích a je typické pro situace obsažené v kafkových románech.</p>
+                        <p>Vystudoval právo a byl zaměstnán jako úředník u pojišťovny. Nikdy se neoženil. Byl nekuřák,
+                            abstinent a vegetarián. Onemocněl tuberkulózou.</p>
                     </td>
                 </tr>
 
@@ -90,6 +96,7 @@
 
             </tfoot>
         </table>
+
 
 
         <h2>Značky a atributy tabulky</h2>
@@ -132,19 +139,19 @@
 
     </main>
     <footer>
-<hr>
+        <hr>
 
     </footer>
     <script>
         function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-        </script>
+    </script>
 </body>
 
 </html>
