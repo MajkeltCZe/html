@@ -7,7 +7,7 @@ body {
     main {
     width: 1200px;
     margin: 50px auto; 
-    color: rgb(0, 0, 0);
+    background-color:#ffffff; 
     border: 3px solid #e0e0e0; 
     padding: 10px;   
      
@@ -20,12 +20,16 @@ body {
         text-transform: uppercase;
     }
   
-       
+    header {
+        background-color: rgb(15, 83, 146);
+        background-image: linear-gradient(blue,rgb(101, 4, 158));
+        padding: 18px;
+        color: white !important;  
+        text-align: center;
+    border-bottom: solid rgb(255, 255, 255) 2px;
+    }
   
-      footer > hr {
-
-        width: 1150px;
-      }
+      
 
 div.gallery {
     margin: 5px;
@@ -52,14 +56,103 @@ div.gallery {
     clear:both;
 }
 
-@media only screen and (max-width: 1200px) {
+
+
+footer > hr {
+
+margin-top: 120px;
+}
+
+
+
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(179, 179, 179);
+  width: 21%;
+  
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+  
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+       background:blue;
+   }
+  
+  .topnav a.active {
+    color: white;
+       border-radius: 25px;
+       background: #4a00f8;
+   
+   }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    color: rgb(0, 0, 0);
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav {
+       
+      width: 45%;
+      
+      }
+
+  }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 1200px) {
     main {
 
-        width:90% ;
+        width:70%;
     }
 
     div.gallery {
-width: 30% ;
+width: 30%;
 
     }
 
@@ -68,7 +161,7 @@ width: 30% ;
 @media only screen and (max-width: 800px) {
   
     div.gallery {
-width: 45% ;
+width: 45%;
 
     }
 
@@ -78,8 +171,9 @@ width: 45% ;
 @media only screen and (max-width: 500px) {
   
     div.gallery {
-width: 100% ;
+width:100%;
 
     }
 
 }
+
