@@ -7,24 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="icon" href="../img/favicon-2.jpg">
     <link href="../css/galerie.css" rel="stylesheet">
-    
+
 
 
 <body>
     <header>
-        <h1>Fotogalerie - Star Wars</h1>
+        <h1 class="animate__bounceIn"> Fotogalerie - Star Wars</h1>
 
     </header>
     <div class="topnav" id="myTopnav">
         <a href="../index.html">Tabulky v HTML</a>
         <a href="../multimedia.html">Multimedia</a>
-        <a href="index.html" class="active">Fotogalerie</a>
+        <a href="#" class="active">Fotogalerie</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+            <i class="fa fa-bars"></i>
         </a>
-      </div>
+    </div>
     <main>
 
         <div class="gallery">
@@ -86,7 +87,7 @@
             <div class="desc">Endor</div>
         </div>
 
-        
+
 
 
         <div class="clear"></div>
@@ -102,18 +103,18 @@
         <hr>
         <p> &copy;2021 - IT1, Michaela Říčná</p>
     </footer>
-    
+
     <script>
         function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-        </script>
-        <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+    </script>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
 
 </body>
 
