@@ -5,6 +5,7 @@ body {
     main {
     width: 1200px;
     margin: 50px auto; 
+    
     background-color:#ffffff; 
     border: 3px solid #e0e0e0; 
     padding: 10px; 
@@ -15,7 +16,11 @@ body {
     h2 {
 text-align: center;
 margin:35px auto ;
-
+background-color: rgb(15, 83, 146);
+        background-image: linear-gradient(blue,rgb(101, 4, 158));
+        color: white;
+        margin: 15px 200px ;
+        padding: 18px;
 }
 
 
@@ -41,20 +46,27 @@ margin:35px auto ;
 margin-left: 200px;
 }
 
-figcaption,iframe {
-padding-left: 230px;
+figcaption {
+padding-left: 240px;
 }
 
 #audiocap {
   padding-left: 500px  !important;
-
+margin-bottom: 40px;
 }
 
 audio {
-padding-left: 400px;
 
+margin: 30px 400px 0px 400px;
 }
 
+
+iframe {
+width: 700px;
+height: 400px;
+padding-left: 230px;
+border: solid 0px;
+}
 
 
 .topnav {

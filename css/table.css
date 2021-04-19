@@ -5,7 +5,7 @@ padding-left: 5px;
 }
 
 table {
-margin-left: 159px;
+margin-left: 180px;
     width: 70%;
    
 }
@@ -40,7 +40,7 @@ width: 130px;
 
 th {
 color: rgba(252, 252, 252, 0.933);
-    background-color: rgb(7, 78, 185);
+    background-color: blue;
 }
 
 
