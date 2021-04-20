@@ -43,6 +43,13 @@ color: rgba(252, 252, 252, 0.933);
     background-color: blue;
 }
 
+#grey {
+
+background-color: #eee;
+
+
+}
+
 
 /*
 [rowspan="2"] {
@@ -50,3 +57,26 @@ background-color:rgb(170, 174, 175);
 
 }
 */
+
+
+@media only screen and (max-width: 1200px) {
+
+    table {
+        margin-left: 10px;
+            width: 95%;
+           
+        }
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    table {
+        margin-left: 1px;
+            width: 100%;
+           
+        }
+
+
+    }
